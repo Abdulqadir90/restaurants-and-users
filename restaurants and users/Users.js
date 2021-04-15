@@ -563,11 +563,18 @@ const users = [
 
 let user = users[2];
 
+
+
+// print the full name of everyone in the list.  You should see 10 names
+
+let user = users[2];
+
 // users.forEach((user) =>{
   // console.log(`${user.gender} ${user.name.first} ${user.name.last} ${user.dob.age}`)
 
 // })
 
+// Write a function to return the average age of everyone in the list
 let total = 0;
 users.forEach((user, index) => {
 
@@ -578,9 +585,6 @@ users.forEach((user, index) => {
 
 let average = total/users.length;
 console.log(average);
-// print the full name of everyone in the list.  You should see 10 names
-
-// Write a function to return the average age of everyone in the list
 
 //  print only those people who are older than the average age.
 // let averageNum = 47.6;
