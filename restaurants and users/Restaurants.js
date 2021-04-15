@@ -483,7 +483,11 @@ const restaurants = [
 
 // print the name, opening time and closing time on Monday of each restaurant.
 
-forEach 
+let restaurant = restaurants;
+
+restaurants.forEach((restaurant) => {
+  console.log(`${restaurant.name} ${restaurant.hours.monday.opens_at} ${restaurant.hours.monday.closes_at}`)
+})
 
 // ignoring minutes, print how many hours each restaurant is open on Mondays.
 
